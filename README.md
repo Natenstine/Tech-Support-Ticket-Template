@@ -1,6 +1,6 @@
 # Tech Support Ticket Template
 
-This repository contains templates for submitting tech support tickets related to various IT issues commonly encountered in different scenarios. It's designed to streamline the process of reporting technical problems, ensuring efficient troubleshooting and resolution. These templates are intended to be adapted as necessary to suit your needs. 
+This repository contains templates for submitting tech support tickets related to various IT issues commonly encountered in different scenarios. It's designed to streamline the process of reporting technical problems, ensuring efficient troubleshooting and resolution. These templates are intended to be adapted as necessary to suit your needs.
 
 ## Purpose
 
@@ -10,6 +10,18 @@ The purpose of this template is to create a structured format for staff to repor
 - Ensure that issues are documented comprehensively.
 - Provide clear communication between staff and the IT department.
 - Keep track of the status and resolution of reported problems.
+
+## Choosing a Template
+
+The templates provide progressively more detailed levels of ticket logging. They intentionally share core fields so that essential information is collected consistently at every tier.
+
+| Template | Intended Use |
+| --- | --- |
+| **Super Simple** | Small teams or environments needing a quick, consistent support request. |
+| **Expanded Simple** | General service desks needing requester details and additional device information. |
+| **Detailed** | Larger, multi-site or structured support environments requiring categorisation, user impact and escalation information. |
+
+The requester records the urgency and impact of the issue. The support team should assign the final priority according to the organisation's triage process.
 
 ## How to Use
 

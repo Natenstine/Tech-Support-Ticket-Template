@@ -1,6 +1,5 @@
 Subject: [Brief Description of the Issue]
 
-Priority: [Low/Medium/High]
 Requester's Name: [Your Name]
 Contact Information: [Your Email/Phone Number]
 Location: [Your Classroom/Office]
@@ -8,11 +7,12 @@ Location: [Your Classroom/Office]
 Problem Description:
 [Please provide a detailed description of the issue you're experiencing. Include any error messages you've encountered.]
 
-Device Information: 
+Device Information:
 Device Type: [e.g., Laptop, Desktop, Tablet]
 Device Make & Model: [e.g., Dell Latitude 12345]
 Operating System: [e.g., Windows 10, macOS 12]
-Serial/Asset Number: [if available]
+Serial Number: [if available]
+Asset Number: [if available]
 
 Issue Recurrence:
 [ ] First Time
@@ -24,6 +24,7 @@ Steps Taken to Resolve (if any):
 
 Attachments:
 [If applicable, attach screenshots or error logs that might help diagnose the issue.]
+[Do not attach passwords, MFA codes or recovery codes. Check screenshots and logs for sensitive information before submitting them.]
 
 Urgency:
 [ ] Can Wait
