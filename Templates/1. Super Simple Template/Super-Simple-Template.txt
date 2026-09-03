@@ -20,6 +20,7 @@ Steps Taken to Resolve (if any):
 
 Attachments:
 [If applicable, attach screenshots or error logs that might help diagnose the issue.]
+[Do not attach passwords, MFA codes or recovery codes. Check screenshots and logs for sensitive information before submitting them.]
 
 Urgency:
 [ ] Can Wait
