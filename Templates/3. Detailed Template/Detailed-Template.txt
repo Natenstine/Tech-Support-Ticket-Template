@@ -6,13 +6,13 @@ Contact Phone: [Your Phone Number]
 Date Submitted: [Current Date]
 Location: [Address + Building/Office/Room] (address only needed for multi-site organisations or call out support)
 Category: [Select Category: Laptop Issue, Charger Request, Form Generation, Wi-Fi, Other]
-Priority: [Select Priority: Low, Medium, High]
 
 Device Information: (If applicable)
 Device Type: [e.g., Laptop, Desktop, Tablet]
 Device Make & Model: [e.g., Dell Latitude 12345]
 Operating System: [e.g., Windows 10, macOS 12]
-Serial/Asset Number: [if available]
+Serial Number: [if available]
+Asset Number: [if available]
 
 Issue Description:
 [Describe the technical issue or request in detail. Be specific about the problem you're experiencing or the support you need.]
@@ -35,11 +35,12 @@ Urgency:
 
 Attachments:
 [If relevant, attach screenshots or documents that help describe or illustrate the issue.]
+[Do not attach passwords, MFA codes or recovery codes. Check screenshots and logs for sensitive information before submitting them.]
 
 Additional Comments:
 [Any additional information or comments you want to provide related to the issue.]
 
 Follow-Up Instructions:
-- If your issue is urgent follow this request up with a message or call to the support team via [Number/Teams/Slack] your ticket number should be on hand. 
-- Not urgent but you have not heard back from the Tech team within 24 hours please message us on [Number/Teams/Slack] and include your ticket number. 
-- If the Support team is not responding to any communications for over 48 hours and it is not the weekend. Contact your manager if you have not done so already. 
+- For urgent issues, contact the support team via [urgent support channel] and provide your ticket number.
+- If you have not received a response within [expected response timeframe], follow up via [standard support channel] and include your ticket number.
+- If there is still no response after [escalation timeframe], contact [manager or escalation contact].
