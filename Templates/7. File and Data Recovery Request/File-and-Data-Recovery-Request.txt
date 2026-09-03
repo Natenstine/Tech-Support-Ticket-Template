@@ -1,0 +1,51 @@
+Subject: Recovery Request — [File, Folder or Data Description]
+
+Requester's Name: [Your Name]
+Contact Information: [Your Email/Phone Number]
+Department or Location: [Department/Site]
+Data Owner: [Name]
+
+Recovery Type:
+[ ] Deleted File or Folder
+[ ] Overwritten or Incorrect Version
+[ ] Corrupted File or Data
+[ ] Missing or Inaccessible Data
+[ ] Other: [Describe]
+
+Original Location:
+Service or System: [e.g., OneDrive, SharePoint, network drive, application]
+Site, Team, Mailbox or Drive: [Name]
+Original Folder or Path: [Exact location]
+File, Folder or Record Names: [Exact names]
+
+Timing:
+Date and Time the Issue Occurred: [Date, Time and Time Zone]
+Approximate Deletion or Modification Time: [Date and Time]
+Last Known Good Version: [Date and Time]
+Date and Time Last Successfully Accessed: [Date and Time]
+
+Description:
+[Explain what happened and how the data became unavailable, deleted, overwritten or corrupted.]
+
+Actions Already Taken:
+[Describe recycle bin checks, version history checks or other recovery attempts.]
+
+Avoid creating, renaming or modifying items in the affected location until the support team confirms it is safe, as further changes may reduce recovery options.
+
+Scope and Impact:
+Users Affected: [Names or Number]
+Work or Service Affected: [Details]
+Required Recovery Timeframe: [Date]
+Workaround Available: [No/Yes — explain]
+
+Restoration:
+Preferred Restore Location: [Original Location/Alternate Location]
+Alternate Location: [Path, if applicable]
+Permission to Restore or Overwrite Existing Data: [Approver and status]
+
+Additional Information:
+[Include related incident or ticket numbers and any retention requirements.]
+
+Attachments:
+[Attach screenshots or supporting information if relevant.]
+[Do not attach passwords, MFA codes, recovery codes or copies of sensitive data. Use an approved secure channel where required.]

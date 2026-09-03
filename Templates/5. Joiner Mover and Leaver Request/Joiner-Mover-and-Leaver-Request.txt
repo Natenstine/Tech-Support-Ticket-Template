@@ -1,0 +1,55 @@
+Subject: [Joiner, Mover or Leaver] — [Person's Name]
+
+Requester's Name: [Your Name]
+Contact Information: [Your Email/Phone Number]
+Manager: [Manager's Name]
+Department or Location: [Department/Site]
+
+Request Type:
+[ ] Joiner — New Starter
+[ ] Mover — Role, Department or Location Change
+[ ] Leaver — Departure or End of Engagement
+
+Person Details:
+Full Name: [Name]
+Preferred Name: [if applicable]
+Personal or Existing Work Email: [as appropriate]
+Employment or Engagement Type: [e.g., permanent, fixed-term, casual, contractor]
+Effective Date: [Start, Change or End Date]
+Effective Time: [Required for time-sensitive access removal]
+
+Role Details:
+Current Role, Department and Location: [Mover or Leaver]
+New Role, Department and Location: [Joiner or Mover]
+Manager After Change: [Joiner or Mover]
+
+Account and Access Requirements:
+Required Systems, Applications and Groups: [Joiner or Mover]
+Shared Mailboxes, Teams, Sites or Folders: [Joiner or Mover]
+Access to Remove: [Mover or Leaver]
+Temporary Access End Date: [if applicable]
+Similar User for Access Reference: [Name, if your organisation permits role-based comparison]
+
+Equipment:
+Equipment Required: [Joiner or Mover]
+Equipment to Transfer or Return: [Mover or Leaver]
+Existing Asset and Serial Numbers: [if applicable]
+Required Delivery or Collection Location: [Location]
+
+Information and Ownership Transfer:
+Mailbox or Email Handling: [e.g., delegate, automatic reply, retention]
+File, Site, Team or Process Ownership to Transfer: [Details]
+New Owner or Delegate: [Name]
+Other Data Retention Requirements: [Details]
+
+Approvals:
+Manager Approval: [Approver and status]
+HR or People Team Approval: [Approver and status]
+Additional System Owner Approval: [Approver and status, if required]
+
+Additional Instructions:
+[Include related ticket numbers, special timing requirements or other relevant information.]
+
+Attachments:
+[Attach approved onboarding, change or departure documentation if required.]
+[Do not attach passwords, MFA codes or recovery codes. Use an approved secure channel for sensitive personal information.]

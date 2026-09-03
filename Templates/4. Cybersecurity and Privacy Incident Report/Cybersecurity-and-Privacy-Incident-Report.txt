@@ -1,0 +1,51 @@
+Subject: Security or Privacy Incident — [Brief Description]
+
+If the incident is active, spreading, preventing essential work or placing information at immediate risk, contact [urgent security channel] now. Do not delay urgent escalation while completing this template.
+
+Reported By: [Your Name]
+Contact Information: [Your Email/Phone Number]
+Location: [Site/Office/Remote]
+Date and Time Detected: [Date, Time and Time Zone]
+
+Incident Type:
+[ ] Suspicious Email, Message or Phishing
+[ ] Suspected Account Compromise
+[ ] Malware or Unsafe File
+[ ] Lost or Stolen Device
+[ ] Unauthorised Access
+[ ] Data Exposure or Incorrect Recipient
+[ ] Other: [Describe]
+
+Incident Description:
+[Describe what happened, how it was detected and whether it is still occurring.]
+
+Affected Accounts:
+[Names, usernames or email addresses, if applicable]
+
+Affected Devices:
+Device Type: [Type]
+Serial Number: [if available]
+Asset Number: [if available]
+
+Potentially Affected Information:
+[Describe the type of information involved. Do not copy sensitive data into the ticket.]
+
+Indicators and Evidence:
+Suspicious Sender, Website or IP Address: [Details]
+File Name or Application: [Details]
+Relevant Error or Alert: [Exact text]
+Related Ticket or Alert Number: [if available]
+
+Actions Already Taken:
+[Describe actions such as disconnecting the device, reporting the message, changing a password or contacting support.]
+
+Do not delete messages, files or logs that may be required as evidence unless instructed by the security team.
+
+Impact:
+Affected Users or Services: [Details]
+Essential Work Prevented: [No/Yes — explain]
+Workaround Available: [No/Yes — explain]
+
+Attachments:
+[Attach relevant screenshots or evidence if permitted.]
+[Do not attach passwords, MFA codes, recovery codes or sensitive personal data. Use the organisation's approved secure evidence process where required.]

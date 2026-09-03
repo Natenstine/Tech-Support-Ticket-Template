@@ -1,0 +1,65 @@
+Subject: Request to Review [Application, Website or AI Service Name]
+
+Requester's Name: [Your Name]
+Contact Information: [Your Email/Phone Number]
+Department or Location: [Department/Site]
+Required By: [Date, if applicable]
+
+Request Type:
+[ ] Application or Software
+[ ] Website or Online Service
+[ ] AI Service or AI-Enabled Feature
+[ ] Existing Service Requiring New Approval or Expanded Use
+
+Service Details:
+Name: [Product or Service Name]
+Vendor or Provider: [Vendor Name]
+Website: [Exact URL]
+Requested Outcome: [e.g., approve access, purchase, deploy, integrate]
+Intended Users: [e.g., individual, team, staff, students, whole organisation]
+Estimated Number of Users: [Number]
+
+Purpose and Requirements:
+[Describe the business, operational or educational purpose and what the service needs to achieve.]
+
+Existing Alternatives:
+[Identify any approved tools considered and explain why they do not meet the requirement.]
+
+Access and Deployment:
+Access Method: [e.g., browser, desktop application, mobile application, browser extension]
+Required Devices or Operating Systems: [Details]
+Account Requirements: [e.g., individual accounts, shared access, SSO]
+Required Permissions or Integrations: [e.g., Microsoft 365, Google Workspace, API, local administrator]
+
+Licensing and Cost:
+Licence Type: [e.g., free, subscription, perpetual, unknown]
+Estimated Cost: [Amount and currency]
+Funding or Cost Centre: [Details]
+Purchasing Approval: [Approver or approval status]
+
+Data, Privacy and Security:
+Information Entered or Uploaded: [Describe the information the service will process]
+Personal, Sensitive or Student Data Involved: [No/Yes — provide details]
+Data Storage Location: [Country/Region/Unknown]
+Security, Privacy or Contract Links: [URLs, if available]
+
+AI-Specific Information: (complete only if the service includes AI)
+AI Capability and Intended Use:
+[Describe what the AI does and how its outputs will be used.]
+
+Provider Uses Submitted Data for Training: [No/Yes/Unknown]
+Human Review Before Outputs Are Used: [No/Yes — explain]
+Outputs Affect Assessment, Employment, Wellbeing or Other Decisions: [No/Yes — explain]
+Minimum Age or Consent Requirements: [Details]
+Approved AI Alternatives Considered: [Details]
+
+Impact if Not Approved:
+[Explain the effect of not having the requested service and whether a workaround is available.]
+
+Manager or Service Owner Approval:
+Name: [Approver]
+Approval Status: [Pending/Approved/Not Required]
+
+Attachments:
+[Attach quotes, product information, screenshots, privacy terms or other supporting material.]
+[Do not attach passwords, MFA codes or recovery codes. Use an approved secure channel for sensitive information.]
