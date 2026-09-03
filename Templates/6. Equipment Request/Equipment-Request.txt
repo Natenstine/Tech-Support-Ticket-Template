@@ -1,0 +1,52 @@
+Subject: Equipment Request — [Equipment and Recipient]
+
+Requester's Name: [Your Name]
+Contact Information: [Your Email/Phone Number]
+Recipient or Assigned User: [Name]
+Department or Location: [Department/Site]
+Delivery or Collection Location: [Location]
+
+Request Type:
+[ ] New Equipment
+[ ] Replacement Equipment
+[ ] Loan Equipment
+[ ] Accessory or Peripheral
+[ ] Equipment Return
+
+Equipment Required:
+Equipment Type: [e.g., laptop, tablet, monitor, dock, headset, charger]
+Quantity: [Number]
+Required Specifications or Compatibility: [Details]
+Required Accessories: [Details]
+
+Purpose:
+[Explain what the equipment will be used for and why it is required.]
+
+Current Equipment: (for replacements or returns)
+Device Type: [Type]
+Serial Number: [if available]
+Asset Number: [if available]
+Reason for Replacement or Return: [Details]
+Condition or Fault: [Details]
+
+Timing:
+Required By: [Date]
+Loan Start Date: [if applicable]
+Loan Return Date: [if applicable]
+
+Configuration Requirements:
+Required Applications or Access: [Details]
+Special Setup or Accessibility Requirements: [Details]
+
+Purchasing and Approval:
+Estimated Cost or Quote: [Amount/Attached/Unknown]
+Funding or Cost Centre: [Details]
+Manager or Budget Owner: [Name]
+Approval Status: [Pending/Approved/Not Required]
+
+Additional Information:
+[Include related ticket numbers or other requirements.]
+
+Attachments:
+[Attach quotes, photographs or supporting approval if applicable.]
+[Do not attach passwords, MFA codes or recovery codes. Check attachments for sensitive information before submitting them.]

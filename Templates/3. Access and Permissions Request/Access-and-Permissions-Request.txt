@@ -1,0 +1,43 @@
+Subject: Access Request for [User and Resource]
+
+Requester's Name: [Your Name]
+Contact Information: [Your Email/Phone Number]
+Department or Location: [Department/Site]
+
+Request Type:
+[ ] New Access
+[ ] Change Existing Access
+[ ] Remove Access
+[ ] Temporary Access
+
+Affected User:
+Full Name: [User's Name]
+Username or Email: [Account Identifier]
+Role or Position: [Role]
+Manager: [Manager's Name]
+
+System or Resource:
+System, Application or Service: [Name]
+Resource: [e.g., folder, mailbox, team, site, group, application role]
+Current Access: [Describe existing access, if any]
+Requested Access: [Describe the exact role or permission required]
+
+Reason for Access:
+[Explain why the access is required and the work it will support.]
+
+Access Period:
+Start Date: [Date]
+End or Review Date: [Date/Not Applicable]
+
+Elevated or Administrative Access Required: [No/Yes — explain]
+
+Approval:
+Manager Approval: [Approver and status]
+Data, System or Resource Owner Approval: [Approver and status]
+
+Additional Information:
+[Include any dependencies, related ticket numbers or special conditions.]
+
+Attachments:
+[Attach approval evidence or supporting documentation if required.]
+[Do not attach passwords, MFA codes or recovery codes. Use an approved secure channel for sensitive information.]
