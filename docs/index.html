@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Build a clear, complete IT support ticket from guided questions.">
+  <meta name="theme-color" content="#0b1f33">
+  <title>Tech Support Ticket Builder</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#ticket-form">Skip to ticket form</a>
+
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">TS</span>
+      <div>
+        <p class="eyebrow">Tech support toolkit</p>
+        <h1>Ticket Builder</h1>
+      </div>
+    </div>
+    <div class="privacy-pill">
+      <span aria-hidden="true">●</span>
+      Runs locally in your browser
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <aside class="template-panel" aria-labelledby="template-heading">
+      <div class="panel-heading">
+        <p class="step-label">Step 1</p>
+        <h2 id="template-heading">Choose a ticket type</h2>
+        <p>Select the smallest template that matches the work required.</p>
+      </div>
+
+      <label class="mobile-template-label" for="template-select">Ticket type</label>
+      <select id="template-select" class="mobile-template-select"></select>
+      <nav id="template-list" class="template-list" aria-label="Ticket templates"></nav>
+
+      <div class="privacy-note">
+        <strong>Your information stays on this device.</strong>
+        <span>This site does not upload, store or submit your responses.</span>
+      </div>
+    </aside>
+
+    <section class="workspace" aria-labelledby="form-title">
+      <div class="workspace-heading">
+        <div>
+          <p class="step-label">Step 2</p>
+          <h2 id="form-title">Complete the ticket</h2>
+          <p id="form-description"></p>
+        </div>
+        <span id="field-summary" class="field-summary"></span>
+      </div>
+
+      <div id="template-alert" class="template-alert" role="note" hidden></div>
+
+      <form id="ticket-form" novalidate>
+        <div id="form-fields"></div>
+
+        <fieldset class="form-section attachment-section">
+          <legend>Attachments <span class="optional-mark">Optional</span></legend>
+          <p class="section-help">Add screenshots or supporting files. Nothing is uploaded by this site.</p>
+          <label class="file-drop" for="attachments">
+            <span class="file-icon" aria-hidden="true">＋</span>
+            <span>
+              <strong>Select screenshots or files</strong>
+              <small>Images, PDF, TXT, LOG, EML or MSG files</small>
+            </span>
+            <input id="attachments" type="file" accept="image/*,.pdf,.txt,.log,.eml,.msg" multiple>
+          </label>
+          <div id="attachment-list" class="attachment-list" aria-live="polite"></div>
+          <p class="security-note">Do not attach passwords, MFA codes or recovery codes. Check files for sensitive information before sharing them.</p>
+        </fieldset>
+
+        <div class="form-actions">
+          <button class="button button-secondary" type="button" id="reset-button">Clear form</button>
+          <button class="button button-primary" type="submit">Generate ticket</button>
+        </div>
+      </form>
+
+      <section id="output-panel" class="output-panel" aria-labelledby="output-heading" hidden>
+        <div class="output-heading-row">
+          <div>
+            <p class="step-label">Step 3</p>
+            <h2 id="output-heading">Your ticket is ready</h2>
+          </div>
+          <span class="ready-badge">Ready to send</span>
+        </div>
+
+        <label for="ticket-output">Generated ticket</label>
+        <textarea id="ticket-output" rows="18" spellcheck="true"></textarea>
+
+        <div class="email-field">
+          <label for="recipient-email">Support email <span class="optional-mark">Optional</span></label>
+          <input id="recipient-email" type="email" placeholder="support@example.org">
+          <small>Leave blank to choose or enter the recipient in your email application.</small>
+        </div>
+
+        <div class="output-actions">
+          <button class="button button-primary" type="button" id="copy-button">Copy ticket</button>
+          <button class="button button-secondary" type="button" id="email-button">Open email draft</button>
+          <button class="button button-secondary" type="button" id="share-button" hidden>Share ticket and files</button>
+          <button class="button button-quiet" type="button" id="download-button">Download .txt</button>
+        </div>
+
+        <div id="attachment-reminder" class="attachment-reminder" hidden></div>
+      </section>
+    </section>
+  </main>
+
+  <p id="status-message" class="status-message" role="status" aria-live="polite"></p>
+
+  <noscript>
+    <div class="noscript-message">JavaScript is required to build tickets. The original plain-text templates remain available in the repository.</div>
+  </noscript>
+</body>
+</html>

@@ -2,6 +2,8 @@
 
 This repository contains adaptable templates for submitting common IT support tickets and structured service requests. The templates help users provide the information support teams need for consistent triage, approval, fulfilment and resolution.
 
+**[Open the Interactive Ticket Builder](https://natenstine.github.io/Tech-Support-Ticket-Template/)**
+
 ## Purpose
 
 These templates provide structured formats for staff to report technical issues or request IT services. They are intended to:
@@ -11,6 +13,45 @@ These templates provide structured formats for staff to report technical issues 
 - Provide clear communication between requesters and support teams.
 - Collect the information needed for troubleshooting, approval or fulfilment.
 - Support tracking through the organisation's chosen ticketing system.
+
+## Interactive Ticket Builder
+
+The browser-based ticket builder in [`docs/`](docs/) provides guided fields for every template in this repository. It:
+
+- Displays required and optional fields for the selected ticket type.
+- Shows conditional questions only when they apply.
+- Generates a clean, editable ticket subject and body.
+- Copies the completed ticket to the clipboard.
+- Downloads the ticket as a text file.
+- Opens the default email application with the recipient, subject and body pre-filled.
+- Uses the device's native sharing function to share the ticket and selected files when supported.
+
+The builder is a static site with no server or database. Responses and selected files remain in the user's browser and are not uploaded or stored by the site.
+
+### Email Attachments
+
+Web browsers do not permit `mailto:` links to attach local files automatically. When files are selected, the builder:
+
+- Includes their filenames in the generated ticket.
+- Reminds the user to attach them to an email draft manually.
+- Offers **Share ticket and files** when the browser and device support native file sharing.
+
+Available email and file-sharing behaviour depends on the user's browser, operating system and installed email applications.
+
+### Publish Free with GitHub Pages
+
+After merging the site files into the default branch:
+
+1. Open the repository on GitHub.
+2. Select **Settings**.
+3. Select **Pages** under **Code, planning, and automation**.
+4. Under **Build and deployment**, select **Deploy from a branch**.
+5. Select the `main` branch and the `/docs` folder.
+6. Select **Save**.
+
+GitHub will publish the site at:
+
+`https://natenstine.github.io/Tech-Support-Ticket-Template/`
 
 ## Choosing a Template
 
@@ -43,8 +84,8 @@ Use the Joiner, Mover and Leaver template instead of a standalone Access and Per
 
 ## How to Use
 
-1. Select the template that matches the required workflow.
-2. Copy and customise the template for your organisation.
+1. Use the interactive builder or select a plain-text template.
+2. Copy and customise the template for your organisation if required.
 3. Replace all bracketed placeholders, categories, channels, timeframes and approval roles.
 4. Publish it through your chosen ticketing system, form, email process or service portal.
 5. Review the deployed template periodically as services and support processes change.
@@ -56,11 +97,13 @@ Use the Joiner, Mover and Leaver template instead of a standalone Access and Per
 - Use conditional sections where your platform supports them.
 - Do not ask users to submit passwords, MFA codes or recovery codes.
 - Direct sensitive information and evidence through an approved secure channel.
+- Edit [`docs/app.js`](docs/app.js) to change the interactive form fields and options.
+- Edit [`docs/styles.css`](docs/styles.css) to apply organisation-specific branding.
 
 ## Future Enhancements
 
 - **Additional Deployment Formats**: Ready-to-use variants for common ticketing systems, forms and service portals.
-- **Interactive Auto Text Generation**: An interactive version that generates copyable ticket text from a user's responses.
+- **Configurable Deployment**: Easier configuration of branding, support addresses, categories and escalation instructions without editing application code.
 
 Feedback and contributions are welcome. Please feel free to suggest changes, new deployment formats or corrections.
 
